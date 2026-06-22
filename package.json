@@ -1,0 +1,25 @@
+{
+  "name": "battle-simulator",
+  "version": "0.1.0",
+  "description": "Sistema de batallas por turnos construido con **TypeScript** y **ES6**, como práctica de clases, herencia, encapsulamiento y lógica de iteración.",
+  "license": "MIT",
+  "author": "Jean Haro",
+  "type": "commonjs",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.1.1",
+      "onFail": "download"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2"
+  }
+}
